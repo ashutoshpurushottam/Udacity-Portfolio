@@ -10,6 +10,7 @@ To run the web page on local machine:
     1. Download the source code in your computer.
     2. Navigate to the folder in which you downloaded the repository.
     3. Open index.html file in any web browser to see the page.
+    4. Clicking on any image project opens a dialog showing details of the project.
     
 
 ## Authors
