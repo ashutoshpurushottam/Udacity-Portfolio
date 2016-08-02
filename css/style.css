@@ -1,0 +1,126 @@
+.modal-content li {
+    list-style: disc;
+    margin-left: 20px;
+}
+.nav-wrapper {
+    font-family: 'Martel Sans', sans-serif;
+}
+.project-block {
+    padding: 10px;
+    margin: 10px;
+}
+.responsive-image {
+    max-height: 10px;
+}
+.btn {
+    margin-bottom: 16px;
+}
+.btn-flat {
+    color: #f6f8ff;
+}
+.parallax-container {
+    max-height: 600px;
+}
+
+h4 {
+    font-size: 1.4em;
+}
+
+#home, #middle, #contact {
+    height: 400px;
+}
+
+
+
+@media only screen and (max-width: 992px) {
+
+    #home, #middle, #contact {
+        height: 300px;
+    }
+    .parallax-container .section {
+        position: absolute;
+        width: 100%;
+        top: 10%;
+    }
+    h4 {
+        font-size: 1.2em;
+    }
+
+    h3 {
+        font-size: 2em;
+    }
+    #header-name {
+        font-size: 32px;
+    }
+    #top-name {
+        font-size: 32px;
+    }
+
+    #job-description {
+        font-size: 32px;
+    }
+}
+@media only screen and (max-width: 600px) {
+
+    #home, #middle, #contact {
+        height: 250px;
+    }
+
+    .parallax-container .section {
+        top: 0;
+    }
+    #header-name {
+        font-size: 24px;
+    }
+    #top-name {
+        font-size: 24px;
+    }
+
+    #job-description {
+        font-size: 24px;
+    }
+
+    h3 {
+        font-size: 1.6em;
+    }
+}
+
+.modal-body {
+    background: #7474bf;
+    /* fallback for old browsers */
+    
+    background: -webkit-linear-gradient(to left, #7474bf, #348ac7);
+    /* Chrome 10-25, Safari 5.1-6 */
+    
+    background: linear-gradient(to left, #7474bf, #348ac7);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    color: #f6f8ff;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.modal-content {
+    background: #e53935; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #e53935 , #e35d5b); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #e53935 , #e35d5b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            
+    color: #f6f8ff;
+    border-radius: 0;
+    font-family: "Source Sans Pro", sans-serif;
+}
+.modal-title {
+    color: #f6f8ff;
+    font-family: "Source Sans Pro", sans-serif;
+}
+.modal-footer {
+    background: #e53935; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #e53935 , #e35d5b); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #e53935 , #e35d5b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            
+    border-top: 1px solid #fffafa;
+    color: #f6f8ff;
+}
+.modal-header {
+    border-bottom: 1px solid #fffafa;
+    font-family: "Source Sans Pro", sans-serif;
+}
