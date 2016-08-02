@@ -1,7 +1,7 @@
 # Udacity-Portfolio
 
 This is a webpage showcasing projects that I have worked on. The project uses HTML, CSS and Javascript. 
-Materialize css framework has been used to get the desired look [Link](http://materializecss.com/). 
+Materialize css framework has been used to get the desired look ([link to materialize framework])(http://materializecss.com/). 
 
 ## How to run the project
 
