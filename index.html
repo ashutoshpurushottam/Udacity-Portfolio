@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css?family=Martel+Sans:200" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Courgette' rel='stylesheet'>
     <link href="css/materialize.min.css" rel="stylesheet" media="screen,projection" />
     <link href="css/style.css" rel="stylesheet" media="screen,projection" />
 </head>
@@ -15,7 +16,7 @@
 <body>
     <nav class="red lighten-1" role="navigation">
         <div class="nav-wrapper container">
-            <a href="#!" class="brand-logo" id="header-name">Ashutosh Purushottam</a>
+            <a href="#!" class="brand-logo" id="header-name">AP</a>
             <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
             <ul class="right hide-on-med-and-down">
                 <li><a href="#projects">Projects</a>
@@ -36,7 +37,7 @@
         </div>
     </nav>
 
-    <div id="home" class="parallax-container">
+    <header id="home" class="parallax-container">
         <div class="section no-pad-bot center">
             <div class="container">
                 <h1 class="header center white-text" id="top-name">Ashutosh Purushottam</h1>
@@ -51,9 +52,9 @@
         <div class="parallax">
             <img src="img/background-top.jpg" alt="background image top">
         </div>
-    </div>
+    </header>
 
-    <div class="container" id="projects">
+    <section class="container" id="projects">
         <div class="section">
             <br>
             <br>
@@ -61,49 +62,49 @@
                 <h3><i class="material-icons">dashboard</i></h3>
                 <h3>Projects</h3>
 
-                <div class="col s12 m6 l6">
+                <article class="col s12 m6 l6">
                     <div class="project-block">
                         <img class="responsive-img modal-trigger" src="img/ultracash.jpg" alt="ultracash image" href="#modal-ultracash" />
                         <h4 class="center">Ultracash Customer</h4>
                         <a class="btn waves-effect waves-light red lighten-1" href="https://play.google.com/store/apps/details?id=com.ultracash.payment.customer&hl=en"  target="_blank">demo</a>
                     </div>
-                </div>
-                <div class="col s12 m6 l6">
+                </article>
+                <article class="col s12 m6 l6">
                     <div class="project-block">
                         <img class="responsive-img modal-trigger" src="img/ultracash.jpg" alt="" href="#modal-ucash-merchant" />
                         <h4 class="center">Ultracash Merchant</h4>
                         <a class="btn waves-effect waves-light red lighten-1" href="https://www.youtube.com/watch?v=KrTMti5ldgI" target="_blank">youtube demo</a>
                     </div>
-                </div>
+                </article>
 
                 <div class="row center">
 
-                    <div class="col s12 m4 l4">
+                    <article class="col s12 m4 l4">
                         <div class="project-block">
                             <img class="responsive-img modal-trigger" src="img/onmap.png" alt="" href="#modal-onmap" />
                             <h4 class="center">On Map</h4>
                             <a class="btn waves-effect waves-light red lighten-1" href="https://github.com/ashutoshpurushottam/OnMap" target="_blank">source</a>
                         </div>
-                    </div>
+                    </article>
 
-                    <div class="col s12 m4 l4">
+                    <article class="col s12 m4 l4">
                         <div class="project-block">
                             <img class="responsive-img modal-trigger" src="img/pitch-perfect.png" href="#modal-pitchperfect" />
                             <h4 class="center">Pitch-Perfect</h4>
                             <a class="btn waves-effect waves-light red lighten-1" href="https://github.com/ashutoshpurushottam/PitchPerfect" target="_blank">source</a>
                         </div>
-                    </div>
-                    <div class="col s12 m4 l4">
+                    </article>
+                    <article class="col s12 m4 l4">
                         <div class="project-block">
                             <img class="responsive-img modal-trigger" src="img/neural.png" href="#modal-neural" />
                             <h4 class="center">Neural Network</h4>
                             <a class="btn waves-effect waves-light red lighten-1" href="https://github.com/ashutoshpurushottam/Logistic-Regression-Neural-Network" target="_blank">source</a>
                         </div>
-                    </div>
+                    </article>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
     <div class="parallax-container valign-wrapper" id="middle">
         <div class="parallax">
@@ -111,7 +112,7 @@
         </div>
     </div>
 
-    <div class="container" id="philosophy">
+    <section class="container" id="philosophy">
         <div class="section">
             <div class="row">
                 <div class="col s12 center">
@@ -129,9 +130,9 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
-    <div class="parallax-container" id="contact">
+    <footer class="parallax-container" id="contact">
         <div class="section no-pad-bot">
             <div class="container">
                 <div class="row center">
@@ -145,12 +146,9 @@
                 </div>
             </div>
         </div>
-        <div class="parallax"><img src="img/background-bottom.jpg" alt="Unsplashed background img 3" class="">
+        <div class="parallax"><img src="img/background-bottom.jpg" alt="bottom image background">
         </div>
-    </div>
-
-
-
+    </footer>
 
 
     <!-- Modal For ultracash project -->
@@ -179,7 +177,7 @@
         </div>
     </div>
 
-    <!-- Modal for On The Map project -->
+    <!-- Modal for Ultracash Merchant -->
     <div id="modal-ucash-merchant" class="modal">
         <div class="modal-content">
             <h4>Ultracash Merchant</h4>
@@ -206,7 +204,7 @@
     </div>
 
 
-    <!-- Modal for Meme app project -->
+    <!-- Modal for OnMap project -->
     <div id="modal-onmap" class="modal">
         <div class="modal-content">
             <h4>On Map</h4>
